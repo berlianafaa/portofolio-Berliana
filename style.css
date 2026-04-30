@@ -942,7 +942,7 @@ h2 {
   font-family: var(--display);
   font-size: 13px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(47, 33, 33, 0.4);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 12px;
@@ -1134,11 +1134,7 @@ h2 {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: radial-gradient(
-    circle,
-    rgba(48, 41, 5, 0.15) 0%,
-    transparent 90%
-  );
+  background: radial-gradient;
   top: -100px;
   right: -100px;
   pointer-events: none;
